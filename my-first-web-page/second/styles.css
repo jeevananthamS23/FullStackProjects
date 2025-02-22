@@ -1,11 +1,19 @@
+html{
+  background-color: rgba(223, 231, 238,0.4);
+}
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  color: #444444;
 }
 
 a {
   text-decoration: none;
+  color: #3B82F7;
+}
+a:hover{
+  color:#a3beeb;
 }
 
 #navbar {
@@ -36,6 +44,7 @@ h1 {
 #description {
   width: 50%;
   padding-right: 8px;
+  font-size: 1.25rem;
 }
 
 #team {
@@ -71,11 +80,55 @@ h3 {
   float: right;
 }
 
+
+#application{
+  margin: 0 auto;
+  padding:0 8px;
+  max-width: 800px;
+}
+.form-group{
+  margin-top: 16px;
+}
+#application-form label{
+  font-weight: 800;
+}
+
+.form-group  input[type="submit"] {
+  background-color: #3882F6;
+  color:white;
+  font-weight: 500;
+  cursor:pointer;
+  width:150px;
+
+}
+
+#application-form input,select,textarea{
+  padding: 4px;
+ font-size: 1.25 rem;
+ margin-top: 4px;
+ border-radius: 5px;
+ border-color: gray;
+
+}
+
+.form-group input[type="checkbox"]{
+  height: 16px;
+  width: 16px;
+}
+
+
+#application-form textarea{
+  padding: 5px;
+  width: 80%;
+  font-family: Roboto;
+}
+
 #footer {
-  background-color: ghostwhite;
+
   padding: 8px;
   margin-top: 32px;
   text-align: center;
+  background-color: rgba(223, 231, 238,0.4);
 }
 
 #footer-links {
@@ -89,17 +142,23 @@ h3 {
 
 .copyright {
   color: gray;
+  font-size: 0.875 rem;
 }  
 
 #job-table {
-  width: 100%;
+  width: 820px;
+  margin: 0 auto;
+  padding: 8px;
   border: 1px solid grey;
+  align-items: center;
   border-collapse:collapse;
+
   text-align: left;
 }
-#job-table tr:nth-child(odd) {
 
-  background-color: rgb(236, 243, 240);
+#job-table tr:nth-child(even) {
+
+  background-color:rgb(215, 245, 248);
 
 }
 
@@ -107,13 +166,32 @@ h3 {
    border: 1px solid gray;
    padding: 8px 4px ;
    background-color: rgb(196, 226, 232);
-}
+   text-align: center;
+   color:#222222;
 
 
 #table-data td{
-  border-left: 1px solid rgb(128, 128, 128);
+  border: 1px solid rgb(128, 128, 128);
   padding:5px 5px;
 }
 
  
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color:#222222;
+}
+h1{font-size: 2.5rem;}
 
+h2{
+  font-size: 2 rem;
+}
+h3{font-size: 1.75rem;}
+h4{font-size: 1.5rem;}
+h5{font-size: 1.25;}
+h6{font-size: 1;}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
