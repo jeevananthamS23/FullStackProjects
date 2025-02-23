@@ -1,6 +1,7 @@
-html{
-  background-color: rgba(223, 231, 238,0.4);
+html {
+  background-color: rgba(223, 231, 238, 0.4);
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -12,8 +13,8 @@ a {
   text-decoration: none;
   color: #3B82F7;
 }
-a:hover{
-  color:#a3beeb;
+a:hover {
+  color: #a3beeb;
 }
 
 #navbar {
@@ -25,13 +26,12 @@ a:hover{
   object-fit: cover;
 }
 
-
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 #banner {
-   width: 100%; 
+  width: 100%;
 }
 
 #about {
@@ -53,11 +53,11 @@ h1 {
 
 #team-image {
   border-radius: 5px;
-  width: 100%
+  width: 100%;
 }
 
 .location {
-  color: gray;  
+  color: gray;
   margin-bottom: 16px;
 }
 
@@ -80,59 +80,56 @@ h3 {
   float: right;
 }
 
-
-#application{
+#application {
   margin: 0 auto;
-  padding:0 8px;
+  padding: 0 8px;
   max-width: 800px;
 }
-.form-group{
+
+.form-group {
   margin-top: 16px;
 }
-#application-form label{
+
+#application-form label {
   font-weight: 800;
 }
 
-.form-group  input[type="submit"] {
+.form-group input[type="submit"] {
   background-color: #3882F6;
-  color:white;
+  color: white;
   font-weight: 500;
-  cursor:pointer;
-  width:150px;
-
+  cursor: pointer;
+  width: 150px;
 }
 
-#application-form input,select,textarea{
+#application-form input, select, textarea {
   padding: 4px;
- font-size: 1.25 rem;
- margin-top: 4px;
- border-radius: 5px;
- border-color: gray;
-
+  font-size: 1.25rem;
+  margin-top: 4px;
+  border-radius: 5px;
+  border-color: gray;
 }
 
-.form-group input[type="checkbox"]{
+.form-group input[type="checkbox"] {
   height: 16px;
   width: 16px;
 }
 
-
-#application-form textarea{
+#application-form textarea {
   padding: 5px;
   width: 80%;
   font-family: Roboto;
 }
 
 #footer {
-
   padding: 8px;
   margin-top: 32px;
   text-align: center;
-  background-color: rgba(223, 231, 238,0.4);
+  background-color: rgba(223, 231, 238, 0.4);
 }
 
 #footer-links {
-  list-style: none;  
+  list-style: none;
 }
 
 #footer-links li {
@@ -142,8 +139,8 @@ h3 {
 
 .copyright {
   color: gray;
-  font-size: 0.875 rem;
-}  
+  font-size: 0.875rem;
+}
 
 #job-table {
   width: 820px;
@@ -151,45 +148,39 @@ h3 {
   padding: 8px;
   border: 1px solid grey;
   align-items: center;
-  border-collapse:collapse;
-
+  border-collapse: collapse;
   text-align: left;
 }
 
 #job-table tr:nth-child(even) {
-
-  background-color:rgb(215, 245, 248);
-
+  background-color: rgb(215, 245, 248);
 }
 
-#table-header th{
-   border: 1px solid gray;
-   padding: 8px 4px ;
-   background-color: rgb(196, 226, 232);
-   text-align: center;
-   color:#222222;
+#table-header th {
+  border: 1px solid gray;
+  padding: 8px 4px;
+  background-color: rgb(196, 226, 232);
+  text-align: center;
+  color: #222222;
+} /* Added missing closing bracket */
 
-
-#table-data td{
+#table-data td {
   border: 1px solid rgb(128, 128, 128);
-  padding:5px 5px;
+  padding: 5px 5px;
 }
 
- 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  color:#222222;
+  color: #222222;
 }
-h1{font-size: 2.5rem;}
 
-h2{
-  font-size: 2 rem;
-}
-h3{font-size: 1.75rem;}
-h4{font-size: 1.5rem;}
-h5{font-size: 1.25;}
-h6{font-size: 1;}
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; } /* Fixed spacing */
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; } /* Added "rem" */
+h6 { font-size: 1rem; } /* Added "rem" */
 
 body {
   font-family: 'Roboto', sans-serif;
