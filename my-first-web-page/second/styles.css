@@ -186,3 +186,17 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
+
+
+@media screen  and (min-width:400px) and (max-width:700px){
+  body {background-color:yellow;}
+  
+}
+
+
+@media screen  and (orientation:landscape){
+  body{
+    font-size:10px;
+  }
+  
+}
